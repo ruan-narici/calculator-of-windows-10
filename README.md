@@ -10,7 +10,7 @@ Project developed during the challenge of #7DaysofCode.
 | -------------  | --- |
 | :sparkles: Nome        | Calculadora - Windows 10
 | :label: Tecnologias | HTML, CSS, Javascript, Figma
-| :rocket: URL         | 
+| :rocket: URL         | https://ruan-narici.github.io/calculator-of-windows-10/
 
 ## Detail of project
 This project was developed with objective of cloner the calculator of windows 10.
