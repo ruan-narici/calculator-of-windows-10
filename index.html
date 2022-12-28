@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#7DaysOfCode | Day-7</title>
+    <Ruan-Narici></Ruan-Narici>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h2 class="title-dev">Desenvolvedor</h2>
+        <h1 class="title-dev-desc"><a href="https://www.linkedin.com/in/ruan-narici-6a590416b/" target="_blank">Ruan Narici</a></h1>
+    </header>
+    <main>
+        <section class="calculator">
+            <div class="box-calculator">
+                <h3 class="title-calculator">Calculadora</h3>
+                <div class="btn-windows">
+                    <p class="minimize">---</p>
+                    <p class="maximize">▢</p>
+                    <p class="close">X</p>
+                </div>
+                <div class="box-result">
+                    <h3 class="type-calculator">Padrão</h3>
+                    <span class="var-number" id="operating"></span>
+                    <span class="show-result" id="result">0</span>
+                </div>
+                <div class="box-btn">
+                    <button class="btn-style -operator" type="button" value="%" id="btn-percent">%</button>
+                    <button class="btn-style" type="button" value="CE" id="btn-ce">CE</button>
+                    <button class="btn-style" type="button" value="C" id="btn-c">C</button>
+                    <button class="btn-style" type="button" value="DEL" id="btn-del">DEL</button>
+                    <button class="btn-style -number" type="button" value="7" id="btn-7">7</button>
+                    <button class="btn-style -number" type="button" value="8" id="btn-8">8</button>
+                    <button class="btn-style -number" type="button" value="9" id="btn-9">9</button>
+                    <button class="btn-style -operator" type="button" value="*" id="btn-x">x</button>
+                    <button class="btn-style -number" type="button" value="4" id="btn-4">4</button>
+                    <button class="btn-style -number" type="button" value="5" id="btn-5">5</button>
+                    <button class="btn-style -number" type="button" value="6" id="btn-6">6</button>
+                    <button class="btn-style -operator" type="button" value="-" id="btn-subtract">-</button>
+                    <button class="btn-style -number" type="button" value="1" id="btn-1">1</button>
+                    <button class="btn-style -number" type="button" value="2" id="btn-2">2</button>
+                    <button class="btn-style -number" type="button" value="3" id="btn-3">3</button>
+                    <button class="btn-style -operator" type="button" value="+" id="btn-addition">+</button>
+                    <button class="btn-style -operator" type="button" value="/" id="btn-division">÷</button>
+                    <button class="btn-style -number" type="button" value="0" id="btn-0">0</button>
+                    <button class="btn-style -number" type="button" value="." id="btn-point">.</button>
+                    <button class="btn-style result" type="button" value="=" id="btn-result">=</button>
+                </div>
+                <div class="box-history">
+                    <h4 class="title-history history">Histórico</h4>
+                    <h4 class="title-history memory">Memória</h4>
+                    <textarea class="list-history" name="calculator-history" id="history-text" cols="30" rows="10" readonly>Ainda não há histórico</textarea>
+                    <img src="./assets/img/trash.png" alt="Clear History" class="clear">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
